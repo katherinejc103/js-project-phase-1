@@ -1,0 +1,28 @@
+{
+    "poses": [
+      {
+        "id": 1,
+        "name": "Uttanasana",
+        "position": "Forward Fold",
+        "level": "Beginner"
+      },
+      {
+        "id": 2,
+        "name": "Dragonfly",
+        "position": "Forward Straddle",
+        "level": "Beginner"
+      },
+      {
+        "id": 3,
+        "name": "Dragonfly",
+        "position": "Side Straddle",
+        "level": "Beginner"
+      },
+      {
+        "id": 4,
+        "name": "Padmasana",
+        "position": "Lotus Position",
+        "level": "Beginner"
+      }
+    ]
+  }

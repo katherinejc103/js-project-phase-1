@@ -1,0 +1,46 @@
+header {
+    color: darkmagenta;
+    /* background-color: lightskyblue;
+    width: 1024px;
+    height: 100px; */
+    text-align: center
+}
+
+h1 {
+    color: darkmagenta;
+  
+}
+    
+nav {
+    color: white;
+    text-align: center
+    /* background-color: plum;
+    width: 1024px;
+    height: 100px */
+}
+
+p {
+    text-align: center
+}
+
+main {
+    /* background-color: lightskyblue;
+    width: 600px;
+    height: 400px; */
+    text-align: center;
+  
+}
+
+footer {
+    color: darkorchid;
+    /* background-color: plum; */
+    /* width: 1024px;
+    height: 100px
+} */
+
+html {
+    background-color: ;
+}
+h3 {
+    color: darkmagenta;
+}

@@ -7,11 +7,11 @@ let poses = [];
 const mainDiv = () => document.getElementById("main");
 
 /**Templates**/
-const homePageTemplate = () => {
-    return `
-    <h1 class="center-align">Good Morning Yoga</h1>
-    `
-}
+// const homePageTemplate = () => {
+//     return `
+//     <h1 class="center-align"></h1>
+//     `
+// }
 
 /***Renders*****/
 renderHomePage = () => {
@@ -37,13 +37,27 @@ const loadPoses = () => {
         })
 }
 
-const submitMindfullness = document.getElementBy
+// const submitMindfullness = document.getElementBy
+
+const posesLink = () => document.getElementById("poses-link");
+
+const renderPosePage = (e) => {
+    e.preventDefault();
+
+    alert("it works");
+}
+
+const attachPosesLinkEvent = () => {
+    posesLink().addEventListener('click', renderPosePage);
+}
+
 
 
 
  
 /*******WHEN THE DOM LOADS*******/
 document.addEventListener('DOMContentLoaded', () => {
-    renderHomePage();
+    attachPosesLinkEvent();
     loadPoses();
+    renderPosePage();
 })

@@ -13,10 +13,10 @@ h1 {
     
 nav {
     color: white;
-    text-align: center
-    /* background-color: plum;
+    text-align: center;
+    /* background-color: plum; */
     width: 1024px;
-    height: 100px */
+    height: 100px;
 }
 
 p {
@@ -33,14 +33,7 @@ main {
 
 footer {
     color: darkorchid;
-    /* background-color: plum; */
-    /* width: 1024px;
-    height: 100px
-} */
-
-html {
-    background-color: ;
-}
-h3 {
-    color: darkmagenta;
-}
+    /* background-color: plum;
+    width: 1024px;
+    height: 100px  */
+} 
